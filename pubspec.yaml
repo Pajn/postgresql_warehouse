@@ -1,0 +1,14 @@
+name: postgresql_warehouse
+description: A Postgresql adapter for Warehouse
+version: 0.1.0
+author: Rasmus Eneman <rasmus@eneman.eu>
+#homepage: https://www.example.com
+environment:
+  sdk: '>=1.9.0 <2.0.0'
+dependencies:
+  postgresql:
+    git: https://github.com/drager/dart_postgresql.git
+  warehouse:
+    path: ../../WebstormProjects/Warehouse
+dev_dependencies:
+  guinness: any
